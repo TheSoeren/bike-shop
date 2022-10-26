@@ -1,8 +1,6 @@
 import { component$ } from '@builder.io/qwik'
 import type { DocumentHead } from '@builder.io/qwik-city'
-import ChatInput from '~/components/chat-window/ChatInput'
-import { ChatWindow } from '~/components/chat-window/ChatWindow'
-import MessageDisplay from '~/components/chat-window/MessageDisplay'
+import { ChatWindow, ChatInput, MessageDisplay } from '~/components/ChatWindow'
 
 export default component$(() => {
   return (

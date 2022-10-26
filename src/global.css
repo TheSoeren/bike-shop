@@ -11,21 +11,33 @@
   --qwik-light-blue: #18b6f6;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
+
+  --border-radius: 20px;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 body {
   background-color: #fafafa;
   font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  padding: 20px 20px 40px 20px;
 }
 
-main {
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   max-width: 760px;
-  margin: 0 auto;
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0px 0px 130px -50px var(--qwik-light-purple);
-  overflow: hidden;
+  margin: 20px auto;
+}
+
+section {
+  height: 100%;
 }
 
 h1,
@@ -33,7 +45,6 @@ h2 {
   margin: 0 0 5px 0;
 }
 
-section {
-  padding: 20px;
-  border-bottom: 10px solid var(--qwik-dark-blue);
+input {
+  font-family: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
