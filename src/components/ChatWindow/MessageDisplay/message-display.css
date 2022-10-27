@@ -1,2 +1,4 @@
 .message-display {
+    overflow: auto;
+    scrollbar-width: thin;
 }

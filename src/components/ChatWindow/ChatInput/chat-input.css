@@ -1,21 +1,28 @@
+.chat-input {
+    margin: 0 5px 5px;
+    display: flex;
+}
+
+.chat-input form {
+    max-height: 100px;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
 .chat-input input {
     font-weight: 700;
     flex: auto;
-    background: transparent;
     font-size: 1rem;
     padding: 1.5rem;
     border-radius: 0 0 20px 20px;
+    border: 0;
+
+    box-shadow: 0px 3px 5px 0px gray inset;
+    -webkit-box-shadow: 0px 3px 5px 0px gray inset;
+    -moz-box-shadow: 0px 3px 5px 0px gray inset;
 }
 
 .chat-input input:focus-visible {
     outline: none;
-}
-
-.chat-input form {
-    border-top: 0;
-    z-index: 30;
-    flex: none;
-    max-height: 100px;
-    display: flex;
-    justify-content: stretch;
 }

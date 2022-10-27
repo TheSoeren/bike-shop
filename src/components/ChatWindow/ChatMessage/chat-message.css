@@ -18,6 +18,10 @@
 	margin-top: -6.5px;
 }
 
+.chat-message:last-of-type {
+	margin-bottom: 20px;
+}
+
 .chat-message p {
     margin: 0;
     word-wrap: break-word;
