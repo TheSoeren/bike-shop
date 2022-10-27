@@ -17,6 +17,9 @@ export default component$(() => {
 
   const sendText$ = $(() => {
     if (messageObject.message.trim()) {
+      
+      // ToDo: Call REST endpoint here
+
       chatContext.messages.push(Object.assign({}, messageObject)) // remove reactiveness
       Object.assign(messageObject, BASE_MESSAGE_OBJECT)
     }

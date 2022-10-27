@@ -12,7 +12,6 @@ export default component$(() => {
     track(() => chatContext.messages.length);
 
     if (signal.value){
-      console.log('signal', signal.value)
       signal.value.scrollTop = signal.value.scrollHeight
     }
   })
