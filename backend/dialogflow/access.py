@@ -9,7 +9,6 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = full_path
 project_name = 'blockbuster-revival-clet'
 
 
-# example from  https://cloud.google.com/dialogflow/es/docs/quick/api#detect-intent-text-python
 def send_intent(session_id, text, language_code):
     session_client = dialogflow.SessionsClient()
     session = session_client.session_path(project_name, session_id)
