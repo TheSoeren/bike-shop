@@ -1,6 +1,9 @@
 from flask import Flask, request
 from dialogflow.access import send_intent
+from fulfillment.webhook import webhook
+
 app = Flask('blockbuster')
+app.register_blueprint(webhook)
 
 
 @app.route('/communicate')
