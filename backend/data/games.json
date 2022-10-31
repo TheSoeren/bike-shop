@@ -1,44 +1,27 @@
-{
-  "Games": [
+  [
     {
       "name": "no man's sky",
-      "Playstation": true,
-      "Xbox Series X": true,
-      "Nintendo Switch": true,
-      "Computer": true,
+      "consoles": ["playstation 5","xbox series x","nintendo switch","computer"],
       "available": false
     },
     {
       "name": "elder scrolls v: skyrim",
-      "Playstation": true,
-      "Xbox Series X": true,
-      "Nintendo Switch": true,
-      "Computer": true,
+      "consoles": ["playstation 5","xbox series x","nintendo switch","computer"],
       "available": true
     },
     {
       "name": "cyberpunk 2077",
-      "Playstation": true,
-      "Xbox Series X": true,
-      "Nintendo Switch": false,
-      "Computer": true,
+      "consoles": ["playstation 5","xbox series x","computer"],
       "available": true
     },
     {
       "name": "zelda: breath of the wild",
-      "Playstation": false,
-      "Xbox Series X": false,
-      "Nintendo Switch": true,
-      "Computer": false,
+      "consoles": ["nintendo switch"],
       "available": true
     },
     {
       "name": "god of war",
-      "Playstation": true,
-      "Xbox Series X": false,
-      "Nintendo Switch": false,
-      "Computer": false,
+      "consoles": ["playstation 5"],
       "available": false
     }
   ]
-}
