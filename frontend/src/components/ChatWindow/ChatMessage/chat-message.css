@@ -1,5 +1,6 @@
 .chat-message {
     position: relative;
+	min-height: 25px;
     max-width: 60%;
     border-radius: var(--border-radius);
     padding: 5px 20px;

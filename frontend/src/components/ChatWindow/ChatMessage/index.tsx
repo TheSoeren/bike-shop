@@ -14,7 +14,7 @@ export default component$(({ message }: ChatMessage) => {
         message.sender === 'user' ? 'chat-message--user' : 'chat-message--bot',
       ]}
     >
-      <p>{message.message}</p>
+      <p dangerouslySetInnerHTML={message.message}></p>
     </div>
   )
 })
