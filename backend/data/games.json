@@ -1,0 +1,27 @@
+  [
+    {
+      "name": "no man's sky",
+      "consoles": ["playstation 5","xbox series x","nintendo switch","computer"],
+      "available": false
+    },
+    {
+      "name": "elder scrolls v: skyrim",
+      "consoles": ["playstation 5","xbox series x","nintendo switch","computer"],
+      "available": true
+    },
+    {
+      "name": "cyberpunk 2077",
+      "consoles": ["playstation 5","xbox series x","computer"],
+      "available": true
+    },
+    {
+      "name": "zelda: breath of the wild",
+      "consoles": ["nintendo switch"],
+      "available": true
+    },
+    {
+      "name": "god of war",
+      "consoles": ["playstation 5"],
+      "available": false
+    }
+  ]
