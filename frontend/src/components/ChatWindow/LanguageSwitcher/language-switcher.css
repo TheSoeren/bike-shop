@@ -1,0 +1,15 @@
+.language-switcher {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    right: 10px;
+    overflow: hidden;
+    padding: 0;
+    border-radius: 0;
+}
+
+.language-switcher img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+.chat-input input {
+    font-weight: 700;
+    flex: auto;
+    background: transparent;
+    font-size: 1rem;
+    padding: 1.5rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.chat-input input:focus-visible {
+    outline: none;
+}
+
+.chat-input form {
+    border-top: 0;
+    z-index: 30;
+    flex: none;
+    max-height: 100px;
+    display: flex;
+    justify-content: stretch;
+}
