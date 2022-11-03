@@ -1,0 +1,11 @@
+[
+  {
+    "customer_nr": 50192,
+    "games": ["No Man's Sky", "Elder Scrolls V: Skyrim"]
+  },
+
+  {
+    "customer_nr": 57162,
+    "games": []
+  }
+]

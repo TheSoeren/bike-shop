@@ -1,0 +1,34 @@
+{
+  "check_console": {
+    "de": {
+      "success": "Sie möchten das Spiel $game$ für die Platform $console$ ausleihen, stimmt das?",
+      "failure": "Das Spiel $game$ ist für die Platform $console$ nicht verfügbar"
+    },
+    "en": {
+      "success": "You want to rent the game $game$ for the platform $console$, is that right?",
+      "failure": "The game $game$ is not available on the platform $console$."
+    }
+  },
+  "check_availability": {
+    "de": {
+      "success": "Das Spiel $game$ steht zurzeit zur Verfügung. Gerne kannst du es bei uns abholen. ",
+      "failure": "Das Spiel $game$ ist leider zurzeit bereits ausgeliehen."
+    },
+    "en": {
+      "success": "We still have the game $game$ in stock! Come pick it up at our opening hours. ",
+      "failure": "The game $game$ is currently not in stock."
+    }
+  },
+  "check_customer_nr": {
+    "de": {
+      "success": "Sie haben zurzeit die folgenden Spiele ausgeliehen: ",
+      "failure": "Ihre Kundennummer konnte nicht gefunden werden. ",
+      "empty": "Sie haben zurzeit keine Spiele ausgeliehen. "
+    },
+    "en": {
+      "success": "You are currently renting the following games: ",
+      "failure": "Your customer number could not be found",
+      "empty": "You are currently not renting any games"
+    }
+  }
+}
