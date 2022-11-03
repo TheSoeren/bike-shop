@@ -13,9 +13,7 @@ def communicate():
     session_id = request.args.get('sessionId')
     text = request.args.get('message')
     language = request.args.get('language')
-    resp = app.make_response(send_intent(session_id, text, language))
-    resp.headers['Access-Control-Allow-Origin'] = '*'
-    return resp
+    return send_intent(session_id, text, language)
 
 
 if __name__ == '__main__':
