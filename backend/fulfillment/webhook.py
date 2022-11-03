@@ -1,7 +1,6 @@
 from flask import Blueprint, request
 from fulfillment.webhookLogic import check_game_console, check_game_availability, check_customer_nr
 import os
-from string import Template
 import json
 
 webhook = Blueprint('webhook', __name__)
@@ -82,7 +81,6 @@ def fulfill_customer_nr(query_result):
         else:
             return texts['check_customer_nr']['de']['empty']
     else:
-        text = ''
         if language_code == 'en':
             text = texts['check_customer_nr']['en']['success']
         else:

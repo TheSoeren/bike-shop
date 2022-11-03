@@ -7,6 +7,7 @@ app = Flask('blockbuster')
 app.register_blueprint(webhook)
 CORS(app)
 
+
 @app.route('/communicate')
 def communicate():
     session_id = request.args.get('sessionId')
