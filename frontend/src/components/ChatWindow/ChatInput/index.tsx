@@ -18,8 +18,15 @@ export default component$(() => {
   const sendText$ = $(() => {
     if (messageObject.message.trim()) {
       
-      // ToDo: Call REST endpoint here
+      const restURL = new URL(
+        'https://52fd-83-76-111-41.eu.ngrok.io//communicate'
+      )
 
+      restURL.searchParams.append('sessionId', uuid())
+      restURL.searchParams.append('message', messageObject.message)
+      restURL.searchParams.append('language', 'en')
+
+     
       chatContext.messages.push(Object.assign({}, messageObject)) // remove reactiveness
       Object.assign(messageObject, BASE_MESSAGE_OBJECT)
     }
